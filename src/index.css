@@ -1,13 +1,44 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500&display=swap');
+
+:root {
+  --darkBlue05: #091B6F;
+  --darkBlue04: #0D28A6;
+  --darkBlue03: #5E70C4;
+  --darkBlue02: #AEB7E1;
+  --darkBlue01: #CFD4ED;
+  --limeGreen05: #3D7B3F;
+  --limeGreen04: #5CB85F;
+  --limeGreen03: #92D094;
+  --limeGreen02: #C9E7CA;
+  --limeGreen01: #DEF1DF;
+  --danger: #FA2C5A;
+  --warning: #F9CC00;
+  --success: #73CA5C;
+  --primary: #0D28A6;
+  --neutral05: #151515;
+  --neutral04: #3C3C3C;
+  --neutral03: #8A8A8A;
+  --neutral02: #D0D0D0;
+  --neutral01: #ffffff;
+  --heroColor: #F1F3FF;
+  --shadowLow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+  --shadowHigh: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  transition: all 200ms ease-in;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html,
+body {
+  color: var(--neutral05);
+  font-family: 'Nunito', sans-serif;
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+h1,
+p {
+  margin: 0;
 }
